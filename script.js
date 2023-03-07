@@ -15,11 +15,6 @@ function setGradient() {
 }
 
 
-
-console.log(css);
-console.log(color1);
-console.log(color2);
-
 color1.addEventListener('input', setGradient);
 
 color2.addEventListener('input', setGradient);
