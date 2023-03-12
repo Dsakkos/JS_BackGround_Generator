@@ -7,15 +7,8 @@ body {
 	top: 15%;
 	background: linear-gradient(to right, red, yellow);
 	margin: 0px;
-	display: grid;
-	align-items: center;
-	grid-auto-flow: row;
 }
 
-.container {
-	align-self: center;
-	justify-self: center;
-}
 
 h1 {
 	font: 600 3.5em "Raleway", sans-serif;
