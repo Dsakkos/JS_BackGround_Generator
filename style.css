@@ -1,5 +1,7 @@
+/* Default styles */
+
 body {
-	font: "Raleway", sans-serif;
+	font-family: "Raleway", sans-serif;
 	color: rgba(0, 0, 0, 0.5);
 	text-align: center;
 	text-transform: uppercase;
@@ -9,20 +11,32 @@ body {
 	margin: 0px;
 }
 
-
 h1 {
-	font: 600 3.5em "Raleway", sans-serif;
-	color: rgba(0, 0, 0, 0.5);
-	text-align: center;
-	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 3.5em;
 	letter-spacing: 0.5em;
-	width: 100%;
 }
 
 h3 {
-	font: 900 1em "Raleway", sans-serif;
-	color: rgba(0, 0, 0, 0.5);
-	text-align: center;
-	text-transform: none;
+	font-weight: 900;
+	font-size: 1em;
 	letter-spacing: 0.01em;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+	body {
+		top: 10%;
+	}
+
+	h1 {
+		font-size: 2em;
+		letter-spacing: 0.2em;
+	}
+
+	h3 {
+		font-size: 0.8em;
+		letter-spacing: 0.05em;
+	}
 }
